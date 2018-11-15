@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class Main 
+public class Main2 
 {
 	static void insertAndPrint(AbstractMap<Integer,String> map)
 	{
@@ -15,7 +15,7 @@ public class Main
 			System.out.println(k+",");
 		}
 	}
-	public static void min(String argv[])
+	public static void main(String argv[])
 	{
 		HashMap<Integer,String>map= new HashMap<Integer,String>();
 		insertAndPrint(map);
